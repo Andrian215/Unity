@@ -1,22 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Key : MonoBehaviour
 {
-
-    public bool hasKey = false;
-    private bool isPickedUp = false;
-
-
-    private void OnTriggerEnter(Collider other)
+    public AudioSource audioSource;
+    private void OnTriggerStay(Collider other)
     {
-        if (other.CompareTag("MainCamera") && !isPickedUp)
+        if (other.CompareTag("MainCamera") && Input.GetKeyDown(KeyCode.F))
         {
-            Debug.Log("Key picked up");
-            isPickedUp = true; 
-            gameObject.SetActive(false); 
-            hasKey = true;
+            Door door = GameObject.FindGameObjectWithTag("door").GetComponent<Door>();
+            if (door != null)
+            {
+                door.Unlock();
+                gameObject.SetActive(false);
+                if (audioSource)
+                {
+                    GameObject textObject = GameObject.FindGameObjectWithTag("keyFound");
+                    if (textObject != null)
+                    {
+                        TextMeshProUGUI textMeshPro = textObject.GetComponent<TextMeshProUGUI>();
+                        if (textMeshPro != null)
+                        {
+                            textMeshPro.SetText("Key Found!");
+                        }
+                    }
+                    audioSource.Play();
+
+                }
+            }
         }
     }
 

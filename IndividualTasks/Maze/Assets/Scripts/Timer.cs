@@ -1,0 +1,40 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using TMPro;
+
+public class Timer : MonoBehaviour
+{
+
+    public TextMeshProUGUI timerText;
+    private float startTime;
+    private bool gameOver;
+
+    void Start()
+    {
+        startTime = Time.time;
+    }
+
+    void Update()
+    {
+        if (!gameOver)
+        {
+            float elapsedTime = Time.time - startTime;
+
+            int minutes = Mathf.FloorToInt(elapsedTime / 60f);
+            int seconds = Mathf.FloorToInt(elapsedTime % 60f);
+
+            string timeString = string.Format("{0:00}:{1:00}", minutes, seconds);
+
+            timerText.text = timeString;
+        }
+
+    }
+
+    public void StopTime(bool isOver)
+    {
+        gameOver = isOver;
+    }
+}
+
+
