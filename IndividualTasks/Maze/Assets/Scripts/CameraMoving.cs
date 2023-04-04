@@ -6,7 +6,7 @@ public class CameraMoving : MonoBehaviour
 {
     private AudioSource audioSource;
     public float speed = 10.0f;
-    public float boostedSpeed = 25.0f;
+    public float boostedSpeed = 20.0f;
 
     private CharacterController controller;
 
