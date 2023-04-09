@@ -7,6 +7,8 @@ using UnityEngine.UI;
 public class Door : MonoBehaviour
 {
     public GameObject gameOver;
+    public GameObject unlocked;
+    public GameObject locked;
     public GameObject door;
     public AudioSource audioSource;
     public AudioSource buttonClicked;
@@ -28,16 +30,26 @@ public class Door : MonoBehaviour
                 isOver = true;
                 timer.StopTime(isOver);
                 ActivateGameOver();
+                unlocked.SetActive(false);
 
             }
             else if (!isLocked)
             {
-                Debug.Log("Press left mouse button");
+                unlocked.SetActive(true);
             }
             else
             {
-                Debug.Log("The door is locked.");
+                locked.SetActive(true);
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("MainCamera"))
+        {
+            locked.SetActive(false);
+            unlocked.SetActive(false);
         }
     }
 

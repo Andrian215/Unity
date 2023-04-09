@@ -16,7 +16,6 @@ public class GameStart : MonoBehaviour
     public void StartGame()
     {
         click.Play();
-        Debug.Log("Starting game...");
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
 
@@ -27,7 +26,6 @@ public class GameStart : MonoBehaviour
     public void ExitGame()
     {
         click.Play();
-        Debug.Log("Exit");
         Application.Quit();
     }
 
