@@ -37,11 +37,11 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player.cs" />
-     <Compile Include="Assets\Scripts\Animation.cs" />
-     <Compile Include="Assets\Scripts\CameraSwitch.cs" />
-     <Compile Include="Assets\Scripts\Coin.cs" />
-     <Compile Include="Assets\Scripts\Rotating.cs" />
      <Compile Include="Assets\Scripts\Death.cs" />
+     <Compile Include="Assets\Scripts\Animation.cs" />
+     <Compile Include="Assets\Scripts\Rotating.cs" />
+     <Compile Include="Assets\Scripts\Coin.cs" />
+     <Compile Include="Assets\Scripts\CameraSwitch.cs" />
      <None Include="Assets\Supercyan Free Forest Sample\Shaders\Legacy\CelShader.shader" />
      <None Include="Assets\Supercyan Free Forest Sample\Shaders\SupercyanShaderLighting.cginc" />
      <None Include="Assets\Supercyan Free Forest Sample\Shaders\SupercyanShader.shader" />
