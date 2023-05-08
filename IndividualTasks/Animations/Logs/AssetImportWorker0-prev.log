@@ -15,7 +15,7 @@ D:/Projects/Projects_on_Unity/IndividualTasks/Animations
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49212
+51245
 Successfully changed project path to: D:/Projects/Projects_on_Unity/IndividualTasks/Animations
 D:/Projects/Projects_on_Unity/IndividualTasks/Animations
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Projects/Projects_on_Unity/IndividualTasks/Animations
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [4488] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1593072627 [EditorId] 1593072627 [Version] 1048832 [Id] WindowsEditor(7,LenovoLeg) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16148] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3721286115 [EditorId] 3721286115 [Version] 1048832 [Id] WindowsEditor(7,LenovoLeg) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [4488] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 1593072627 [EditorId] 1593072627 [Version] 1048832 [Id] WindowsEditor(7,LenovoLeg) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16148] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 3721286115 [EditorId] 3721286115 [Version] 1048832 [Id] WindowsEditor(7,LenovoLeg) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 119.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 103.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.24f1 (cf10dcf7010d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Resources/UnitySubsystems
@@ -67,93 +67,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56244
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007200 seconds.
+Registered in 0.006646 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 280 ms
-Refreshing native plugins compatible for Editor in 107.56 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 262 ms
+Refreshing native plugins compatible for Editor in 103.44 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.952 seconds
+- Completed reload, in  0.900 seconds
 Domain Reload Profiling:
-	ReloadAssembly (952ms)
-		BeginReloadAssembly (85ms)
+	ReloadAssembly (900ms)
+		BeginReloadAssembly (80ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (770ms)
-			LoadAssemblies (83ms)
+		EndReloadAssembly (727ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (103ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (592ms)
+			SetupLoadedEditorAssemblies (556ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (357ms)
+				InitializePlatformSupportModulesInManaged (332ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (108ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (83ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004152 seconds.
+Registered in 0.004161 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 108.88 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 114.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.334 seconds
+- Completed reload, in  1.266 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1335ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (1267ms)
+		BeginReloadAssembly (110ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (1121ms)
-			LoadAssemblies (99ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (307ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (602ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (580ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (109ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (290ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				RefreshPlugins (115ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (270ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5309 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 49 unused Assets / (0.8 MB). Loaded Objects now: 5773.
 Memory consumption went from 217.5 MB to 216.7 MB.
-Total: 3.962100 ms (FindLiveObjects: 0.470500 ms CreateObjectMapping: 0.308300 ms MarkObjects: 2.788800 ms  DeleteObjects: 0.393000 ms)
+Total: 3.651100 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 0.137800 ms MarkObjects: 2.708100 ms  DeleteObjects: 0.353200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,7 +167,788 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 368876.982830 seconds.
-  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab
-  artifactKey: Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab using Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d2efefb30af3cebc577349d072191a') in 0.111879 seconds 
+  Time since last request: 433208.716266 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/BrightDay/ReflectionProbe-0.exr
+  artifactKey: Guid(e3bced12a72ad4348b849357056d7a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/BrightDay/ReflectionProbe-0.exr using Guid(e3bced12a72ad4348b849357056d7a70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a2d5bc08b23959cd3815953fbf10f66') in 0.128265 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003935 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.167 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1168ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (928ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (81ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5821.
+Memory consumption went from 213.7 MB to 212.9 MB.
+Total: 4.028700 ms (FindLiveObjects: 0.501400 ms CreateObjectMapping: 0.242000 ms MarkObjects: 2.940300 ms  DeleteObjects: 0.343500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.553858 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/BrightDay/LightingData.asset
+  artifactKey: Guid(22ef63684cccf564ab931c177f255b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/BrightDay/LightingData.asset using Guid(22ef63684cccf564ab931c177f255b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c1fd46b97d6dc97314cc447cf50811a') in 0.023527 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003529 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (927ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5836.
+Memory consumption went from 213.7 MB to 213.0 MB.
+Total: 4.170400 ms (FindLiveObjects: 0.460500 ms CreateObjectMapping: 0.265900 ms MarkObjects: 2.869400 ms  DeleteObjects: 0.573500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.906953 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/BrightDay/LightingData.asset
+  artifactKey: Guid(22ef63684cccf564ab931c177f255b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/BrightDay/LightingData.asset using Guid(22ef63684cccf564ab931c177f255b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b7fa4fa596abf20a54f42505f64cd2') in 0.023331 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.174 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1174ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (947ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (297ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (448ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (269ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5851.
+Memory consumption went from 213.8 MB to 213.0 MB.
+Total: 3.867200 ms (FindLiveObjects: 0.621800 ms CreateObjectMapping: 0.246700 ms MarkObjects: 2.664000 ms  DeleteObjects: 0.332700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004028 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.169 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (955ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (291ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (443ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (264ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5866.
+Memory consumption went from 213.8 MB to 213.0 MB.
+Total: 4.069400 ms (FindLiveObjects: 0.474900 ms CreateObjectMapping: 0.199800 ms MarkObjects: 3.005000 ms  DeleteObjects: 0.387800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003623 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.119 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1120ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (888ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5881.
+Memory consumption went from 213.8 MB to 213.0 MB.
+Total: 3.606000 ms (FindLiveObjects: 0.458200 ms CreateObjectMapping: 0.165900 ms MarkObjects: 2.622100 ms  DeleteObjects: 0.358200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003555 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.117 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1118ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (893ms)
+			LoadAssemblies (92ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (271ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (436ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5896.
+Memory consumption went from 213.8 MB to 213.1 MB.
+Total: 4.416800 ms (FindLiveObjects: 0.454100 ms CreateObjectMapping: 0.398300 ms MarkObjects: 3.192900 ms  DeleteObjects: 0.370300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 765.836849 seconds.
+  path: Assets/Supercyan Free Forest Sample/Shaders/SupercyanShader.shader
+  artifactKey: Guid(d56c3230b6db1c6499606e09fe9f60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Shaders/SupercyanShader.shader using Guid(d56c3230b6db1c6499606e09fe9f60d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ef5c6cb5f374f70cce42e818cadd389') in 0.042499 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.021281 seconds.
+  path: Assets/Supercyan Free Forest Sample/Shaders/Legacy
+  artifactKey: Guid(c20867d5dd78f1c4d8646cb850f0e8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Shaders/Legacy using Guid(c20867d5dd78f1c4d8646cb850f0e8b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1dfe4a7de42ddb89fc08f358cba1c1') in 0.006750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.847567 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Tree
+  artifactKey: Guid(a88ba6a3bcd97154d834ecf03b20acb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Tree using Guid(a88ba6a3bcd97154d834ecf03b20acb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970b2a33120b3b648b8465b5ce9afdc1') in 0.006388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.803778 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Tree/Fir
+  artifactKey: Guid(05414fb21ee75eb4eab74af83c4cb868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Tree/Fir using Guid(05414fb21ee75eb4eab74af83c4cb868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989b554eb1bedff1e91aff3ddae7551e') in 0.006695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.049809 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Tree/Fir/forestpack_tree_fir_tall.fbx
+  artifactKey: Guid(fda5f0fbb824fb847a8635f96d681d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Tree/Fir/forestpack_tree_fir_tall.fbx using Guid(fda5f0fbb824fb847a8635f96d681d0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3565a503e85f0677291587a05f11e8') in 0.110987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.994108 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile
+  artifactKey: Guid(572b3611e1e30514aaade959229a10ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile using Guid(572b3611e1e30514aaade959229a10ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91fc4a991cc3f1364ffd14d23bf4c6c2') in 0.010704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.198779 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/Foliage
+  artifactKey: Guid(ba34c2c74fd09a24b873eba1d614755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/Foliage using Guid(ba34c2c74fd09a24b873eba1d614755e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b03187868a822cb068dcbf9fda2b7') in 0.006575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043104 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/Foliage/forestpack_foliage_low.mat
+  artifactKey: Guid(c4d3add090c4d9a4b9166270167cc035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/Foliage/forestpack_foliage_low.mat using Guid(c4d3add090c4d9a4b9166270167cc035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f661130d0e02291adccd969d6ce04030') in 0.108188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.804620 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/SignAndBridge
+  artifactKey: Guid(f49fe2bead1c6d14580312213b2b489c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/SignAndBridge using Guid(f49fe2bead1c6d14580312213b2b489c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11a5a702ccac706bdae8c0d309da30e5') in 0.006632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.048047 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/SignAndBridge/forestpack_roadSignAndBridge_low.mat
+  artifactKey: Guid(fcb4a5e1255d29f47ba16e73b60ab527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/SignAndBridge/forestpack_roadSignAndBridge_low.mat using Guid(fcb4a5e1255d29f47ba16e73b60ab527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6dff3354baea2bc93242cc6eb1eb561') in 0.027172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.424263 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/Stone
+  artifactKey: Guid(f55d3ec1ae6a17d4088817a2943fac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/Stone using Guid(f55d3ec1ae6a17d4088817a2943fac46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9384f4ab5436bc3f372d4ca4faa7bb') in 0.006978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.076074 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/Stone/forestpack_stone_low.mat
+  artifactKey: Guid(ce6cfc015fea75b40b0ffd1ef6cef222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/Stone/forestpack_stone_low.mat using Guid(ce6cfc015fea75b40b0ffd1ef6cef222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892378a77f9be2285f6bd1235a270541') in 0.026113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.806404 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree
+  artifactKey: Guid(8e37fbabcde96134d9483275f9bfadb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree using Guid(8e37fbabcde96134d9483275f9bfadb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47b209a4eba81ee5e912705e90cdc92') in 0.002017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.091737 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree/forestpack_tree_fir_low.mat
+  artifactKey: Guid(74112b16490588944bcb0bb101875a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree/forestpack_tree_fir_low.mat using Guid(74112b16490588944bcb0bb101875a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca8fc25271d7946808a2e332db60ed1c') in 0.025747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree/forestpack_treeStumpAndRoot_low.mat
+  artifactKey: Guid(afa31e083c38f8b42aa842d0ff23a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/Mobile/Tree/forestpack_treeStumpAndRoot_low.mat using Guid(afa31e083c38f8b42aa842d0ff23a5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539fa015bbebdf95c57f6253a2b7407a') in 0.019406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.503406 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/High Quality/SignAndBridge
+  artifactKey: Guid(3641c008424b8504095ec5d174376c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/High Quality/SignAndBridge using Guid(3641c008424b8504095ec5d174376c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a474c7e9e4be59f266ba7a9b8b6426f2') in 0.002200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.088259 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/High Quality/SignAndBridge/forestpack_roadSignAndBridge.mat
+  artifactKey: Guid(ee87708a178fd1843843e762102d3864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/High Quality/SignAndBridge/forestpack_roadSignAndBridge.mat using Guid(ee87708a178fd1843843e762102d3864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123d64f11176d7e1774362b2ebcf4918') in 0.014859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.865148 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree
+  artifactKey: Guid(a8785ec64de93ef4b8242cfa6e841d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree using Guid(a8785ec64de93ef4b8242cfa6e841d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15a99b8392a3e1947c1dfef1b9f92db') in 0.002302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.097198 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree/forestpack_tree_fir.mat
+  artifactKey: Guid(eaced99e50210cd40ac0719cae139991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree/forestpack_tree_fir.mat using Guid(eaced99e50210cd40ac0719cae139991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b24832b5eef5ddafc041f406bad72402') in 0.019291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree/forestpack_treeStumpAndRoot.mat
+  artifactKey: Guid(a6f54caceb604a14084e7ff2ee0af531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Materials/High Quality/Tree/forestpack_treeStumpAndRoot.mat using Guid(a6f54caceb604a14084e7ff2ee0af531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0b15ff453f79fea4fbef78717c0d0f') in 0.035735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.008626 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Foliage
+  artifactKey: Guid(18f286dc2d0d6924f84efc494a76b964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Foliage using Guid(18f286dc2d0d6924f84efc494a76b964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f91138a9484b17a0ef320ba8f63abfab') in 0.002513 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.903486 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Foliage/Mushroom
+  artifactKey: Guid(84c5d6dec27ee1e44abe88c6c1c59dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Foliage/Mushroom using Guid(84c5d6dec27ee1e44abe88c6c1c59dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adf3a135bf42e397dbb04988bbd5f560') in 0.006264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050917 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Foliage/Mushroom/forestpack_foliage_mushroom_blue_big.FBX
+  artifactKey: Guid(1115645f02362fc40a598fcdf0a09ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Foliage/Mushroom/forestpack_foliage_mushroom_blue_big.FBX using Guid(1115645f02362fc40a598fcdf0a09ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0baf4a4b4c58e1f7015c3aca90cea19') in 0.017765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.806249 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Foliage/Grass
+  artifactKey: Guid(26e038c29641b594f832c817337d6b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Foliage/Grass using Guid(26e038c29641b594f832c817337d6b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be00de373c7e47de245f64ebf84e13c4') in 0.006487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081748 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_1.fbx
+  artifactKey: Guid(729791b8cf5dd874f94b1d07407161bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_1.fbx using Guid(729791b8cf5dd874f94b1d07407161bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a73562123f186e36ac884820dd581b2') in 0.017424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.201674 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/SignAndBridge
+  artifactKey: Guid(750e60971112d93469b60b1134ce96b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/SignAndBridge using Guid(750e60971112d93469b60b1134ce96b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b55358be30ced58a8a283a4d3dc6d76') in 0.002228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.086208 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/SignAndBridge/forestpack_roadSign_westEast_1.FBX
+  artifactKey: Guid(fbaae1d077d294940b6ecbec3e9c88eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/SignAndBridge/forestpack_roadSign_westEast_1.FBX using Guid(fbaae1d077d294940b6ecbec3e9c88eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7dbeec66861d1738e6183363fe5620') in 0.015675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.442412 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Stone
+  artifactKey: Guid(dec6792ffb8f42849bf01efe7cc42b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Stone using Guid(dec6792ffb8f42849bf01efe7cc42b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e43375def72733adc6781d7f60a5967') in 0.001954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.090032 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_large_1.fbx
+  artifactKey: Guid(29350d5dafe58194793aeaffb2c99ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_large_1.fbx using Guid(29350d5dafe58194793aeaffb2c99ea8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22dce46a009d068319c0a38ed03a6834') in 0.016713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_medium_1.fbx
+  artifactKey: Guid(9ff0ab7be26787c49a4748d4bfa19e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Stone/forestpack_stone_medium_1.fbx using Guid(9ff0ab7be26787c49a4748d4bfa19e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8874a2f82cce871c5f14a286d25f6265') in 0.034545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.784083 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Tree/Leaf
+  artifactKey: Guid(34004f67cf2494b4385740d47250c634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Tree/Leaf using Guid(34004f67cf2494b4385740d47250c634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc40f03218ef5350352a066bc06e351') in 0.006466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.094528 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Tree/Leaf/forestpack_tree_1_leaf_1.FBX
+  artifactKey: Guid(ef0cc6a746af63e4ea423a4527703c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Tree/Leaf/forestpack_tree_1_leaf_1.FBX using Guid(ef0cc6a746af63e4ea423a4527703c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2376a9701de9051e4ec56ef39e1df82a') in 0.016824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.405559 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Tree/Treestump
+  artifactKey: Guid(c9fb3bdeca11e9048b71da5061a0711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Tree/Treestump using Guid(c9fb3bdeca11e9048b71da5061a0711d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eed46cd10f613be1de98fdedafb8636') in 0.006423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014246 seconds.
+  path: Assets/Supercyan Free Forest Sample/Models/Tree/Treestump/forestpack_tree_stump_1.FBX
+  artifactKey: Guid(ae885d1eef947854ebcd3e9504def7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Models/Tree/Treestump/forestpack_tree_stump_1.FBX using Guid(ae885d1eef947854ebcd3e9504def7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5faafbd119befd3c3da7feba0855a74d') in 0.014171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.815603 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom
+  artifactKey: Guid(4d3b5b9aaef01c74895a6dc18e480b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom using Guid(4d3b5b9aaef01c74895a6dc18e480b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb0abe5f3a84a90e13251f6d063ef7aa') in 0.002262 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.683732 seconds.
+  path: Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom/forestpack_foliage_mushroom_blue_big.prefab
+  artifactKey: Guid(3a9df2c30188f10438112114dc22bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Mushroom/forestpack_foliage_mushroom_blue_big.prefab using Guid(3a9df2c30188f10438112114dc22bae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7984532ecf43a9ed02b7fd81d2a10c05') in 0.025274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.217480 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/AllFreeForestSampleAssets.unity
+  artifactKey: Guid(7ca6202b6c5aa084bba0cffffca6f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/AllFreeForestSampleAssets.unity using Guid(7ca6202b6c5aa084bba0cffffca6f323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7db15e860bee4eab707e6e33fa4a79') in 0.006822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.297956 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/MoodyNight.unity
+  artifactKey: Guid(6c5afed758d9dde4d96232ce7a139e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/MoodyNight.unity using Guid(6c5afed758d9dde4d96232ce7a139e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ea023a459ab2d6d4a9cfbd01d38416') in 0.006547 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003564 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1154ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (296ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (433ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (260ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5927.
+Memory consumption went from 214.2 MB to 213.5 MB.
+Total: 4.026100 ms (FindLiveObjects: 0.435700 ms CreateObjectMapping: 0.242700 ms MarkObjects: 2.975000 ms  DeleteObjects: 0.370500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 30.533769 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/MoodyNight
+  artifactKey: Guid(36aabe72e2b2a3e4abf8f2e8906e9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/MoodyNight using Guid(36aabe72e2b2a3e4abf8f2e8906e9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b0ba2d56cf8c980679ab04ea71c219') in 0.013261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038214 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/MoodyNight/LightingData.asset
+  artifactKey: Guid(83359cfa09ec3a8409e5abf8de7fa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/MoodyNight/LightingData.asset using Guid(83359cfa09ec3a8409e5abf8de7fa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+ -> (artifact id: '486b5b6d8f2ff559898b35c1369130cd') in 0.020575 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003679 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Projects\Projects_on_Unity\IndividualTasks\Animations\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.207 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (984ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (447ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (272ms)
+				ProcessInitializeOnLoadMethodAttributes (70ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5231 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (0.8 MB). Loaded Objects now: 5942.
+Memory consumption went from 214.4 MB to 213.6 MB.
+Total: 4.826200 ms (FindLiveObjects: 0.482800 ms CreateObjectMapping: 0.374600 ms MarkObjects: 3.613900 ms  DeleteObjects: 0.353600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 51.623183 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/BrightDay
+  artifactKey: Guid(991fe8d2d97844146b65a782ac70ce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/BrightDay using Guid(991fe8d2d97844146b65a782ac70ce28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83288da29031111a0ee98f5cf2f7b78d') in 0.013771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.929949 seconds.
+  path: Assets/Supercyan Free Forest Sample/Scenes/BrightDay.unity
+  artifactKey: Guid(106025b4713992744bb2e8999d6a3608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Scenes/BrightDay.unity using Guid(106025b4713992744bb2e8999d6a3608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09bef57f71dac60a80052f2389dfe33d') in 0.006946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.738143 seconds.
+  path: Assets/Supercyan Free Forest Sample/TerrainLayers
+  artifactKey: Guid(b400aa51b5e6c3941a47ce7dbda137f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/TerrainLayers using Guid(b400aa51b5e6c3941a47ce7dbda137f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1867f67833b83dddce0ffad928d78220') in 0.007163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102655 seconds.
+  path: Assets/Supercyan Free Forest Sample/TerrainLayers/forestpack_moss_light_terrainlayer.terrainlayer
+  artifactKey: Guid(b8bc1310bbf53544a889924a5126d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/TerrainLayers/forestpack_moss_light_terrainlayer.terrainlayer using Guid(b8bc1310bbf53544a889924a5126d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dea6766229748ae106c250eb04e922') in 0.040099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Supercyan Free Forest Sample/TerrainLayers/forestpack_rock_terrainlayer.terrainlayer
+  artifactKey: Guid(36b02f9ded11447479d70224404a762b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/TerrainLayers/forestpack_rock_terrainlayer.terrainlayer using Guid(36b02f9ded11447479d70224404a762b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbe975d7262c0eb329acff85f72fbfa2') in 0.014023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.829995 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Ground/forestpack_road_tile_diffuse.png
+  artifactKey: Guid(c3c4673abc7f1ac4e981951aabacc969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Ground/forestpack_road_tile_diffuse.png using Guid(c3c4673abc7f1ac4e981951aabacc969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053d11109017057b76fc84293e7cab43') in 0.034674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.868524 seconds.
+  path: Assets/Supercyan Free Forest Sample/Terrains/DemoTerrain.asset
+  artifactKey: Guid(9fd0999bcdb5b874882e73d08ff0d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Terrains/DemoTerrain.asset using Guid(9fd0999bcdb5b874882e73d08ff0d45d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a085e932db96c6b0c6d8f6df5f466c84') in 0.051888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.917436 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Foliage
+  artifactKey: Guid(8688d56883697284fb92ef62bf363355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Foliage using Guid(8688d56883697284fb92ef62bf363355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51514b7d84a8607d8f23d083049e923f') in 0.002506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058506 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Foliage/forestpack_foliage_diffuse.png
+  artifactKey: Guid(1056b8bf593938a4399e74aa632e2a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Foliage/forestpack_foliage_diffuse.png using Guid(1056b8bf593938a4399e74aa632e2a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaf956659f8112d6b213b22f11307f4') in 0.010979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.713898 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Tree
+  artifactKey: Guid(a4f5f3a8c02e38645b3460d430c73f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Tree using Guid(a4f5f3a8c02e38645b3460d430c73f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38931d8befb4d891decea106452d5fc') in 0.002243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.794768 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Tree/Leaf
+  artifactKey: Guid(08cde3bf3fe70434884174d8934406c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Tree/Leaf using Guid(08cde3bf3fe70434884174d8934406c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd32f444358f7a78a75bdacdffd83b3') in 0.002141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055144 seconds.
+  path: Assets/Supercyan Free Forest Sample/Textures/Tree/Leaf/forestpack_tree_leaf_diffuse.png
+  artifactKey: Guid(7133ca74527ebf543916eb424bcf7fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan Free Forest Sample/Textures/Tree/Leaf/forestpack_tree_leaf_diffuse.png using Guid(7133ca74527ebf543916eb424bcf7fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9b78bf97f8ac742fd52e43bc8ab1c2') in 0.022851 seconds 
