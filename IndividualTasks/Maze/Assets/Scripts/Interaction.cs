@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Interaction : MonoBehaviour
 {
     public Text text;
-    private float maxDistance = 8f;
+    private float maxDistance = 10f;
     public static bool blocked = false;
     public static bool stopMob = false;
 

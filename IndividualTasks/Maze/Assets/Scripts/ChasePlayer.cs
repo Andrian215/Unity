@@ -56,6 +56,7 @@ public class ChasePlayer : MonoBehaviour
     {
         if (Interaction.stopMob)
         {
+            myAgent.enabled = false;
             myAnimator.Play("Idle");
             audioSource.Stop();
         }

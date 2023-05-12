@@ -4,22 +4,19 @@ using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class GameStart : MonoBehaviour
+public class GameEnd : MonoBehaviour
 {
     public AudioSource click;
-
-    public void StartGame()
+    public void RestartGame()
     {
         click.Play();
-        Cursor.visible = false;
-        SceneManager.LoadScene("GameScene");
-
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void ExitGame()
+    public void GoToMenu()
     {
+        Time.timeScale = 1f;
         click.Play();
-        Application.Quit();
+        SceneManager.LoadScene("GameMenu");
     }
-
 }

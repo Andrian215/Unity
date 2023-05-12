@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,11 +11,21 @@ public class DoorScript : MonoBehaviour
     public AudioSource doorOpened;
     public AudioSource doorClosed;
     public static bool blockEscape = false;
+    public static bool passed = false;
 
     void Start()
     {
+        passed = default;
         blockEscape = default;
         doorAnim = GetComponent<Animator>();
+    }
+
+    private void Update()
+    {
+        if (passed)
+        {
+            Cursor.visible = true;
+        }
     }
 
     public void Door()
@@ -46,8 +55,7 @@ public class DoorScript : MonoBehaviour
 
     private void ActivateGameOver()
     {
-        Cursor.lockState = CursorLockMode.None;
-        Cursor.visible = true;
+        passed = true;
         gameOver.SetActive(true);
     }
 }
