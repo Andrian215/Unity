@@ -7,13 +7,13 @@ using UnityEngine.UI;
 
 public class PauseMenu : MonoBehaviour
 {
-    public bool isPaused;
+    bool isPaused;
     public GameObject pauseGameMenu;
     public AudioSource click;
     public AudioSource escape;
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !Door.blockEscape)
+        if (Input.GetKeyDown(KeyCode.Escape) && !DoorScript.blockEscape)
         {
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
@@ -21,7 +21,6 @@ public class PauseMenu : MonoBehaviour
             if (isPaused)
             {
                 Resume();
-
             }
             else
             {
@@ -43,12 +42,12 @@ public class PauseMenu : MonoBehaviour
 
         Camera.main.GetComponent<CameraTurning>().enabled = false;
         Camera.main.GetComponent<AudioSource>().enabled = false;
-
     }
 
     public void Resume()
     {
         click.Play();
+        DoorScript.blockEscape = false;
         pauseGameMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
@@ -58,10 +57,16 @@ public class PauseMenu : MonoBehaviour
 
     }
 
+    public void RestartGame()
+    {
+        click.Play();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 
-    public void LoadMenu()
+    public void GoToMenu()
     {
         Time.timeScale = 1f;
+        click.Play();
         SceneManager.LoadScene("GameMenu");
     }
 }

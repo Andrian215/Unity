@@ -8,10 +8,11 @@ public class Timer : MonoBehaviour
 
     public TextMeshProUGUI timerText;
     private float startTime;
-    private bool gameOver;
+    public static bool gameOver;
 
     void Start()
     {
+        gameOver = default;
         startTime = Time.time;
     }
 
@@ -31,10 +32,6 @@ public class Timer : MonoBehaviour
 
     }
 
-    public void StopTime(bool isOver)
-    {
-        gameOver = isOver;
-    }
 }
 
 

@@ -8,7 +8,7 @@ public class GameStart : MonoBehaviour
 {
     public AudioSource click;
 
-    void Update()
+    void Start()
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
@@ -18,7 +18,6 @@ public class GameStart : MonoBehaviour
         click.Play();
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
         SceneManager.LoadScene("GameScene");
 
     }

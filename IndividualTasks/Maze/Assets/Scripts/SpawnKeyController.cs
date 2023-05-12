@@ -18,7 +18,6 @@ public class SpawnKeyController : MonoBehaviour
         }
         GameObject obj = GameObject.FindGameObjectWithTag("key");
         obj.SetActive(false);
-
     }
 
     private void SpawnKey()

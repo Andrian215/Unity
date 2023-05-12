@@ -22,28 +22,43 @@ public class ChasePlayer : MonoBehaviour
     {
         distance = Vector3.Distance(target.position, transform.position);
 
-        if (distance > 30f)
+        if (!Interaction.stopMob)
         {
-            myAgent.enabled = false;
-            myAnimator.Play("Idle");
-            audioSource.Stop();
-        }
-        else if (distance < 7f)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            if (distance > 30f)
+            {
+                myAgent.enabled = false;
+                myAnimator.Play("Idle");
+                audioSource.Stop();
+            }
+            else if (distance < 7f)
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            }
+            else
+            {
+                myAgent.enabled = true;
+                myAgent.SetDestination(target.position);
+                myAnimator.Play("Run");
+                if (!audioSource.isPlaying)
+                {
+                    audioSource.Play();
+                }
+            }
         }
         else
         {
-            myAgent.enabled = true;
-            myAgent.SetDestination(target.position);
-            myAnimator.Play("Run");
-            if (!audioSource.isPlaying)
-            {
-                audioSource.Play();
-            }
+            StopPursuit();
         }
 
+    }
 
+    void StopPursuit()
+    {
+        if (Interaction.stopMob)
+        {
+            myAnimator.Play("Idle");
+            audioSource.Stop();
+        }
     }
 
 }

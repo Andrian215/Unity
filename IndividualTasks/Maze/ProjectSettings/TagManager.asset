@@ -9,6 +9,7 @@ TagManager:
   - door
   - Wall
   - keyFound
+  - Button
   layers:
   - Default
   - TransparentFX
